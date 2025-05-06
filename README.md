@@ -106,5 +106,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ```
 
 ## Disclaimer
-
-This repository is for educational and research purposes only. Always ensure you have proper authorization before testing any vulnerabilities in production environments.
+> [!CAUTION]
+> This repository is for educational and research purposes only. Always ensure you have proper authorization before testing any vulnerabilities in production environments.
