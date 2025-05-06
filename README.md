@@ -79,10 +79,6 @@ We welcome contributions from the security community! Here's how you can contrib
 - Improve error handling
 - Optimize performance
 
-## Getting Started
-
-[Documentation and setup instructions coming soon]
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
