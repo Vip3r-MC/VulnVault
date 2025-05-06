@@ -1,7 +1,7 @@
 # VulnVault
 
 <div align="center">
-  <img src="VulnVault.png" width="750" height="750">
+  <img src="VulnVault.png" width="600" height="600">
 </div>
 
 VulnVault is a comprehensive repository containing a curated collection of CVEs (Common Vulnerabilities and Exposures), along with various tools and scripts for vulnerability research and analysis. This project serves as a valuable resource for security researchers, penetration testers, and cybersecurity professionals.
