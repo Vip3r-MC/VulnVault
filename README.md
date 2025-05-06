@@ -21,7 +21,7 @@ We welcome contributions from the security community! Here's how you can contrib
 
 1. **Fork the Repository**
    - Click the 'Fork' button on the top right of this repository
-   - Clone your fork locally: `git clone https://github.com/your-username/VulnVault.git`
+   - Clone your fork locally: `git clone https://github.com/Vip3r-MC/VulnVault.git`
 
 2. **Create a New Branch**
    - Create a feature branch: `git checkout -b feature/your-feature-name`
