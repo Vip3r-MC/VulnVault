@@ -90,7 +90,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
-   Copyright 2024 VulnVault
+   Copyright 2025 VulnVault
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
