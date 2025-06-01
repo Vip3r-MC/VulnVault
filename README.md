@@ -13,7 +13,7 @@ VulnVault is a comprehensive repository containing a curated collection of CVEs 
 - Automation scripts for security testing
 - Regular updates with new vulnerabilities and exploits
 
-## Contributing
+## Contributing 🤝
 
 We welcome contributions from the security community! Here's how you can contribute:
 
