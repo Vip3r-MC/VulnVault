@@ -24,6 +24,12 @@ This vulnerability is independently exploitable but is made significantly easier
 
 > **Warning:** For responsible disclosure purposes only. Do not use against systems you do not own.
 
+
+
+https://github.com/user-attachments/assets/1ee066f3-ba1c-490f-97e6-da10296f7fa1
+
+
+
 ### Step 1: Host a malicious JMAP server
 
 ```js
